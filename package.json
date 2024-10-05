@@ -1,0 +1,26 @@
+{
+    "keywords": [
+        "CSS",
+        "Frameworks",
+        "Bootstrap",
+        "SCSS",
+        "SASS"
+    ],
+    "dependencies": {
+        "@popperjs/core": "^2.11.8",
+        "bootstrap": "^5.3.3",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-router-dom": "^6.26.2"
+    },
+    "devDependencies": {
+        "live-server": "^1.2.2",
+        "sass": "^1.79.4"
+    },
+    "scripts": {
+        "build": "sass scss:dist/css",
+        "watch": "sass --watch scss:dist/css & live-server",
+        "start": "vite",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
